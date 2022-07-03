@@ -1,0 +1,17 @@
+{
+  "name": "cy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:mobile": "cypress open --config --headed --browser firefox viewportWidth=375,viewportHeight=667",
+    "cypress:run:mobile": "cypress run --config --headless -b chrome viewportWidth=375,viewportHeight=667",
+    "cypress:open:desktop": "cypress open --config --headed --browser firefox viewportWidth=1000,viewportHeight=660",
+    "cypress:run:desktop": "cypress run --config --headed -b chrome viewportWidth=1000,viewportHeight=660"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  }
+}
